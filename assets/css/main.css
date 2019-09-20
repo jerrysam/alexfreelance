@@ -1326,8 +1326,14 @@ input, select, textarea {
 
 			#header nav ul li {
 				padding-left: 0;
-				width: 190px;
+				width: 250px;
 				border-left: solid 1px #ffffff;
+			}
+			@media screen and (max-width: 1680px) {
+				#header nav ul li {
+					width: 190px;
+				}
+
 			}
 
 				#header nav ul li:first-child {
