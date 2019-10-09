@@ -1574,6 +1574,9 @@ input, select, textarea {
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
+				#main .book-background-image .close:before {
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");					
+				}
 
 				#main article .close:hover:before {
 					background-color: rgba(255, 255, 255, 0.075);
@@ -1643,3 +1646,20 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+
+	/*New CSS*/
+
+	.contact-background-image {
+		  background-image: url("images/backstage2.jpeg"); /* The image used */
+		  background-position: center; /* Center the image */
+		  background-repeat: no-repeat; /* Do not repeat the image */
+		  background-size: cover;
+	}
+	.book-background-image {
+		  background-image: url("images/laura.jpeg"); /* The image used */
+		  background-position: center; /* Center the image */
+		  background-repeat: no-repeat; /* Do not repeat the image */
+		  background-size: cover;
+	}

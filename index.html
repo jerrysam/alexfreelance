@@ -130,15 +130,27 @@
 							</article>
 
 						<!-- Book Now -->
-							<article id="book">
-								<h2 class="major">YOUR EVENT</h2>
+							<article class="book-background-image" id="book">
+								<h2 class="major">London</h2>
 								<p>
-									- At your work place <br>
-									- Christmas party<br>	
-									- Wedding <br>	
-									- Photo shoot
+									PRIVATE HAIR SERVICES <br>
+									- At home <br>
+									- At your workplace <br>
+									- Company Events <br> (e.g. Christmas party)<br>
 								</p>
 
+								<h2 class="major">Marseille</h2>
+								<p></p>
+								<p>
+									SERVICE PRIVE DE COIFFURE <br>
+									 - À domicile <br>
+									 - Évènement (e.x. Mariage)<br>
+								</p>
+								<p>
+									FORMATION <br>
+									 - À domicile <br>
+									 - Master classe
+								</p>
 								<p><a href="" onclick="Calendly.showPopupWidget('https://calendly.com/alexiis/60min');return false;">
 									See my calendar
 								</a><br>
@@ -446,6 +458,27 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		  background-position: center; /* Center the image */
 		  background-repeat: no-repeat; /* Do not repeat the image */
 		  background-size: cover;
+	}
+	.book-background-image {
+		  background-image: url("images/laura_new.jpeg"); /* The image used */
+		  background-position: center; /* Center the image */
+		  background-repeat: no-repeat; /* Do not repeat the image */
+		  background-size: cover;
+		  color: black !important;
+	}
+	.book-background-image a {
+		border-bottom: dotted 1px rgba(0, 0, 0, 0.5);
+	}
+	.book-background-image > h1,
+	.book-background-image > h2,
+	.book-background-image >  h3,
+	.book-background-image >  h4 {
+		color: black;
+		border-bottom: solid 1px black !important;
+	}
+
+	#main .book-background-image .close:before {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23000000%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");					
 	}
 </style>
 
