@@ -88,7 +88,6 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Hi I am Alexis</h2>
-									<p>Welcome to my brand new website !</p>
 									<p>Originally from the south of France, I realised very early that I had a strong passion for hairdressing & barbering. My career started in Marseille at the age of 15 with my mum being one of my first teachers.<br/>At the age of 19, I had graduated twice from the hairdressing school. I then carried on my career as self employed for a few years.</p>
 									<p>Inspired by new experiences, motivated by the challenges, I decided to move to London at the age of 24 with no English skills, purely focused on my passion for hairdressing and self-development.</p>
 									<p>I took my career a step further by joining the TONI&GUY Flagship salon in Shoreditch where I had to start as a apprentice again but soon I managed to overcome the language barrier and I got a distinction for my third diploma at the prestigious TONI&GUY LONDON ACADEMY which is recognised worldwide.<br/>Then I worked my way up and became the ASSISTANT MANAGER / STYLE DIRECTOR / STAFF TRAINER in 18 months.</p>
@@ -139,23 +138,35 @@
 
 								<h2 class="major" style="margin-bottom: 5px;">Marseille</h2>
 								<p>
-									PRESTATIONS <br>
+									SERVICE PRIVÉ DE COIFFURE<br>
 									 - À domicile <br>
 									 - Évènements (e.x. Mariage)<br>
 								</p>
 								<p>
 									TRAINING & FORMATIONS <br>
 									 - À domicile <br>
-									 - Master classe
+									 <a href="#masterclass">- Master classe</a>
 								</p>
-								<p><a href="" onclick="Calendly.showPopupWidget('https://calendly.com/alexiis/60min');return false;">
+								<!-- <p><a href="" onclick="Calendly.showPopupWidget('https://calendly.com/alexiis/60min');return false;">
 									See my calendar
-								</a><br>
-								<a href="#contact">Contact by Alexis.m</a></p>
+								</a><br> -->
+
+								<a href="#contact"><strong>Contact by Alexis.m</strong></a></p>
 
 
 							</article>
 
+
+
+							<!-- Master class -->
+							<article  id="masterclass">
+								<!-- <h2 class="major">Diplomas</h2>
+								
+								<h3>2019</h3> -->
+								<span class="image main"><img src="images/masterclass1.jpeg" alt="" /></span>
+								<span class="image main"><img src="images/masterclass2.jpeg" alt="" /></span>
+
+							</article>
 
 
 
@@ -451,14 +462,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 <style>
 	.contact-background-image {
-		  background-image: url("images/backstage2.jpeg"); /* The image used */
+		  background-image: url("images/ludoroof.jpeg"); /* The image used */
 		  background-position: center; /* Center the image */
 		  background-repeat: no-repeat; /* Do not repeat the image */
 		  background-size: cover;
 	}
 	.book-background-image {
 		  background-image: url("images/laura_new.jpeg"); /* The image used */
-		  background-position: left; /* Center the image */
+		  background-position: left top; /* Center the image */
 		  background-repeat: no-repeat; /* Do not repeat the image */
 		  background-size: cover;
 		  color: black !important;
@@ -472,6 +483,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	.book-background-image >  h4 {
 		color: black;
 		border-bottom: solid 1px black !important;
+	}
+	
+	.book-background-image strong {
+		color: black;
 	}
 
 	#main .book-background-image .close:before {
